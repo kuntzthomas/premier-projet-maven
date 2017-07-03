@@ -19,12 +19,24 @@
     <finalName>${project.artifactId}</finalName>
   </build>
 
+<repositories>
+    <repository>
+        <id>lalyos-snapshots</id>
+        <url>https://github.com/lalyos/mvn-repo/raw/master/snapshots</url>
+    </repository>
+</repositories>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>${junit.version}</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+    	<groupId>com.github.lalyos</groupId>
+    	<artifactId>jfiglet</artifactId>
+    	<version>0.0.3</version>
     </dependency>
   </dependencies>
 </project>
