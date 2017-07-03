@@ -9,6 +9,6 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( FigletFont.convertOneLine("hello World !"));
+        System.out.println( FigletFont.convertOneLine("App"));
     }
 }
