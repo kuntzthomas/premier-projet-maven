@@ -1,1 +1,4 @@
-target/
+target
+.classpasth
+.project
+.settings
