@@ -17,5 +17,6 @@ public class App {
 		// Affichage de l'environnement
 		String environnement = ResourceBundle.getBundle("application").getString("environnement");
 		System.out.println("environnement : " + environnement);
+		
 	}
 }
